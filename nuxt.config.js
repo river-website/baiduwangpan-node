@@ -36,3 +36,23 @@ module.exports = {
     }
   }
 }
+module.exports = {
+    vender:[
+        'axios',
+        'element-ui'
+    ],
+    babel:{
+        "plugins": [["component", [
+            {
+                "libraryName": "element-ui",
+                "styleLibraryName": "theme-default"
+            },
+            'transform-async-to-generator',
+            'transform-runtime'
+        ]]],
+        comments: true
+    },
+    plugins: [
+        { src: '~plugins/element-ui', ssr: true }
+    ]
+}

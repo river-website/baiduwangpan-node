@@ -29,7 +29,7 @@ module.exports = {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          // loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
       }
@@ -38,7 +38,7 @@ module.exports = {
 }
 module.exports = {
     vender:[
-        'axios',
+        // 'axios',
         'element-ui'
     ],
     babel:{

@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "element-ui": "^1.4.12",
-    "nuxt": "^1.0.0-rc11"
+    "element-ui": "^2.0.10",
+    "nuxt": "^1.0.0-rc11",
+    "vue": "^2.5.13",
+    "vue-server-renderer": "^2.5.13",
+    "vue-template-compiler": "^2.5.13"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

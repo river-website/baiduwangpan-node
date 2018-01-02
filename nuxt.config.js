@@ -45,7 +45,7 @@ module.exports = {
         "plugins": [["component", [
             {
                 "libraryName": "element-ui",
-                "styleLibraryName": "theme-default"
+                "styleLibraryName": "theme-chalk"
             },
             'transform-async-to-generator',
             'transform-runtime'
